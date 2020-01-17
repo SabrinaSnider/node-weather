@@ -1,0 +1,23 @@
+{
+  "name": "simple-nodejs-weather-app",
+  "version": "1.0.0",
+  "description": "simple app using node to get weather",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SabrinaSnider/node-weather.git"
+  },
+  "author": "SabrinaSnider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SabrinaSnider/node-weather/issues"
+  },
+  "homepage": "https://github.com/SabrinaSnider/node-weather#readme",
+  "dependencies": {
+    "request": "^2.88.0",
+    "yargs": "^15.1.0"
+  }
+}
