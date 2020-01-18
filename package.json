@@ -18,9 +18,14 @@
   "homepage": "https://github.com/SabrinaSnider/node-weather#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
     "ejs": "^3.0.1",
     "express": "^4.17.1",
     "request": "^2.88.0",
     "yargs": "^15.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-react": "^6.24.1"
   }
 }
