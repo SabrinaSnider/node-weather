@@ -1,7 +1,8 @@
+require('dotenv').config();
 const request = require('request');
 const argv = require('yargs').argv;
 
-let apiKey = '3de023bd2399753ccd193976efa1e432';
+let apiKey = process.env.API_KEY;
 
 // our city variable equals argv.c OR defaults to gainesville if no city is entered
 let city = argv.c || 'gainesville';
